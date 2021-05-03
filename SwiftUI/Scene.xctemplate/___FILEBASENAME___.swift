@@ -1,0 +1,1 @@
+../View.xctemplate/___FILEBASENAME___.swift

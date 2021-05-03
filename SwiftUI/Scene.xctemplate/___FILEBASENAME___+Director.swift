@@ -1,0 +1,1 @@
+../Director.xctemplate/___FILEBASENAME___+Director.swift
