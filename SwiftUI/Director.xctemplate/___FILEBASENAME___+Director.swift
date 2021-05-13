@@ -5,6 +5,7 @@ import Foundation
 extension ___VARIABLE_viewName___ {
     final class Director: ObservableObject {
         @Published var model = Model()
+        private lazy var presenter = Presenter()
     }
 }
 
