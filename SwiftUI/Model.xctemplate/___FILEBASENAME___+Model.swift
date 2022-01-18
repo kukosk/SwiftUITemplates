@@ -4,6 +4,6 @@ import Foundation
 
 extension ___VARIABLE_viewName___ {
     struct Model {
-        // ...
+        //...
     }
 }

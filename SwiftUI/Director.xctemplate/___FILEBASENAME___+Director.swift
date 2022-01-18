@@ -4,13 +4,19 @@ import Foundation
 
 extension ___VARIABLE_viewName___ {
     final class Director: ObservableObject {
-        @Published var model = Model()
-        private lazy var presenter = Presenter()
+        @Published private(set) var model: Model
+        private var presenter = Presenter()
+
+        init() {
+            self.model = Model()
+        }
     }
 }
 
 extension ___VARIABLE_directorName___ {
-    func onFirstAppear() {
-        // ...
-    }
+    //...
+}
+
+private extension ___VARIABLE_directorName___ {
+    //...
 }

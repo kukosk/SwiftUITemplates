@@ -3,10 +3,16 @@
 import SwiftUI
 
 struct ___VARIABLE_viewName___: ___VARIABLE_viewSuperclass___ {
-    @StateObject private var director = Director()
+    @StateObject private var director: Director
 
     var body: some View {
         Text("___VARIABLE_viewName___")
+    }
+}
+
+extension ___VARIABLE_viewName___ {
+    init() {
+        self.init(director: Director())
     }
 }
 

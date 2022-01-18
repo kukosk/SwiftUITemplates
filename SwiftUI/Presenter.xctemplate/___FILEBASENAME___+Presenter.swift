@@ -4,10 +4,14 @@ import Foundation
 
 extension ___VARIABLE_viewName___ {
     struct Presenter {
-        // ...
+        //...
     }
 }
 
 extension ___VARIABLE_presenterName___ {
-    // ...
+    //...
+}
+
+private extension ___VARIABLE_presenterName___ {
+    //...
 }
