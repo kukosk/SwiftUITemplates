@@ -4,8 +4,7 @@ import Foundation
 
 extension ___VARIABLE_viewName___ {
     final class Director: ObservableObject {
-        @Published private(set) var model: Model
-        private var presenter = Presenter()
+        @Published var model: Model
 
         init() {
             self.model = Model()
